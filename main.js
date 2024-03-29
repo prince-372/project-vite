@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import imglaptop from './assets/image/img-laptop.png';
 import camra from './assets/image/camra-img.png';
 import iceimg from './assets/image/ice-image.png';
+import icon from './assets/image/icon-img.png'
 
 document.querySelector('#app').innerHTML = `
 <div class="container">
 <div class="d-flex pt-5 gap-3 align-items-center font-lexend">
-  <img src="./assets/image/icon-img.png" alt="icon" />
+  <img src=${icon} alt="icon" />
   <h2 class="fs-xl fw-semibold text-lightblack">Records</h2>
 </div>
 <div class="row pt-4">
