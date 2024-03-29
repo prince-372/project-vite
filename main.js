@@ -1,6 +1,9 @@
 import './style.css'
 import { setupCounter } from './counter.js'
 import 'bootstrap/dist/css/bootstrap.css';
+import imglaptop from './assets/image/img-laptop.png';
+import camra from './assets/image/camra-img.png';
+import iceimg from './assets/image/ice-image.png';
 
 document.querySelector('#app').innerHTML = `
 <div class="container">
@@ -12,7 +15,7 @@ document.querySelector('#app').innerHTML = `
   <div class="col-lg-4 col-md-6 col-12 pt-3 pt-md-0">
     <img
       class="w-100"
-      src="./assets/image/img-laptop.png"
+      src=${imglaptop}
       alt="img-laptop"
     />
     <div class="card-border">
@@ -44,7 +47,7 @@ document.querySelector('#app').innerHTML = `
   <div class="col-lg-4 col-md-6 col-12 pt-3 pt-md-0">
     <img
       class="w-100"
-      src="./assets/image/camra-img.png"
+      src=${camra}
       alt="img-laptop"
     />
     <div class="card-border">
@@ -76,7 +79,7 @@ document.querySelector('#app').innerHTML = `
   <div class="col-lg-4 col-md-6 col-12 pt-3 pt-lg-0">
     <img
       class="w-100"
-      src="./assets/image/ice-image.png"
+      src=${iceimg}
       alt="img-laptop"
     />
     <div class="card-border">
