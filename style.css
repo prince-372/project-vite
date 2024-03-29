@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url("../font/Silka-Regular.otf");
+}
+
+.font-silka {
+  font-family: "Silka";
+}
+
+.font-lexend {
+  font-family: "Lexend", sans-serif;
+}
+
+.fs-xl {
+  font-size: 32px;
+}
+
+.text-lightblack {
+  color: #2c2f32;
+}
+
+/* .pt-60 {
+  padding-top: 60px;
+} */
+.fs-md {
+  font-size: 18px;
+}
+.fs-md1 {
+  font-size: 20px;
+}
+.fs-lg {
+  font-size: 48px;
+}
+.fs-sm {
+  font-size: 16px;
+}
+.fs-sm1 {
+  font-size: 14px;
+}
+.text-grey {
+  color: #8d8d8d;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.text-blue {
+  color: #222861;
+}
+.text-red {
+  color: #ee4036;
+}
+.text-lightblack {
+  color: #2c2f32;
+}
+.text-darkgrey {
+  color: #8d8d8d;
+}
+
+.btn-get {
+  padding: 8px 16px;
+  background-color: #222861;
+  color: #fff;
+  border-radius: 24px;
+  border: none;
+  max-width: 130px;
+}
+.btn-small {
+  padding: 2px 12px;
+  border-radius: 32px;
+  background-color: #f1f1f1;
+  border: none;
+}
+.max-w-637 {
+  max-width: 637px;
+}
+.max-w-410 {
+  max-width: 410px;
+}
+.btn-cta {
+  padding: 8px 16px;
+  border-radius: 24px;
+  background-color: #222861;
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+.btn-cta:hover {
+  background-color: #fff;
+  color: #222861;
+  border: 1px solid #222861;
+}
+
+.card-border {
+  border: 1px solid #e5e5e5;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+@media (min-width: 992px) {
+}
